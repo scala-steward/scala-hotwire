@@ -1,11 +1,11 @@
-ThisBuild / scalaVersion := "3.3.4"
+ThisBuild / scalaVersion := "3.3.7"
 ThisBuild / organization := "se.olund.hotwire"
 ThisBuild / version      := "0.1.0-SNAPSHOT"
 
 val pekkoV     = "1.1.3"
 val pekkoHttpV = "1.1.0"
 val jnatsV     = "2.20.5"
-val munitV     = "1.0.3"
+val munitV     = "1.0.4"
 
 lazy val root = (project in file("."))
   .enablePlugins(SbtTwirl)
